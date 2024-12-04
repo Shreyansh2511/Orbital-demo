@@ -1,0 +1,5 @@
+
+@taxi.http.HttpOperation(url = '/api/q/accounts', method = 'GET')
+query getAllAccounts {
+  find { Account[] }
+}
