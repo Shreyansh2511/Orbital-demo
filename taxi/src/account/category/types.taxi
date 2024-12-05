@@ -1,0 +1,4 @@
+
+namespace com.example.category
+
+type AccountCategory inherits String
